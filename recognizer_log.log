@@ -1,0 +1,24 @@
+2023-06-29 17:23:04,192 - INFO - pyaudio (0.2.11) is installed
+2023-06-29 17:23:04,192 - INFO - grpcio (1.46.3) is installed
+2023-06-29 17:23:04,192 - INFO - reprint (0.6.0) is installed
+2023-06-29 17:23:04,424 - INFO - * Start speaking...
+2023-06-29 17:23:04,424 - ERROR - Exception iterating requests!
+Traceback (most recent call last):
+  File "/Users/glebmarkevich/anaconda3/lib/python3.10/site-packages/grpc/_channel.py", line 203, in consume_request_iterator
+    request = next(request_iterator)
+  File "/Users/glebmarkevich/Desktop/speechkit-openai/recognize_audio_mic.py", line 56, in generate_audio_stream
+    pcm_audio=stt_pb2.PcmAudio(
+AttributeError: module 'yandex.cloud.ai.stt.v3.stt_pb2' has no attribute 'PcmAudio'
+2023-06-29 17:23:04,426 - ERROR - Error code StatusCode.UNKNOWN, message: Exception iterating requests!
+2023-06-29 17:23:07,750 - INFO - pyaudio (0.2.11) is installed
+2023-06-29 17:23:07,751 - INFO - grpcio (1.46.3) is installed
+2023-06-29 17:23:07,751 - INFO - reprint (0.6.0) is installed
+2023-06-29 17:23:07,906 - INFO - * Start speaking...
+2023-06-29 17:23:07,906 - ERROR - Exception iterating requests!
+Traceback (most recent call last):
+  File "/Users/glebmarkevich/anaconda3/lib/python3.10/site-packages/grpc/_channel.py", line 203, in consume_request_iterator
+    request = next(request_iterator)
+  File "/Users/glebmarkevich/Desktop/speechkit-openai/recognize_audio_mic.py", line 56, in generate_audio_stream
+    pcm_audio=stt_pb2.PcmAudio(
+AttributeError: module 'yandex.cloud.ai.stt.v3.stt_pb2' has no attribute 'PcmAudio'
+2023-06-29 17:23:07,908 - ERROR - Error code StatusCode.UNKNOWN, message: Exception iterating requests!
