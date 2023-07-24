@@ -46,7 +46,7 @@ def read_audio(audio_file_name):
                 restriction_type=stt_pb2.LanguageRestrictionOptions.WHITELIST,
                 language_code=["en-US"],
             ),
-            audio_processing_type=stt_pb2.RecognitionModelOptions.REAL_TIME,
+            audio_processing_type=stt_pb2.RecognitionModelOptions.FULL_DATA,
         ),
         eou_classifier=stt_pb2.EouClassifierOptions(
             default_classifier=stt_pb2.DefaultEouClassifier(
