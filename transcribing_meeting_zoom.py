@@ -49,7 +49,7 @@ def read_audio(audio_file_name):
                 language_code=["he-IL"],
             ),
 
-            audio_processing_type=stt_pb2.RecognitionModelOptions.REAL_TIME,
+            audio_processing_type=stt_pb2.RecognitionModelOptions.FULL_DATA,
         ),
 
         eou_classifier=stt_pb2.EouClassifierOptions(
